@@ -1,0 +1,14 @@
+F:\unisinos\ProjetoCasoDeEnsino\FourHealth\FourHealth.APPServices\bin\Debug\netcoreapp2.0\FourHealth.APPServices.deps.json
+F:\unisinos\ProjetoCasoDeEnsino\FourHealth\FourHealth.APPServices\bin\Debug\netcoreapp2.0\FourHealth.APPServices.dll
+F:\unisinos\ProjetoCasoDeEnsino\FourHealth\FourHealth.APPServices\bin\Debug\netcoreapp2.0\FourHealth.APPServices.pdb
+F:\unisinos\ProjetoCasoDeEnsino\FourHealth\FourHealth.APPServices\obj\Debug\netcoreapp2.0\FourHealth.APPServices.csprojResolveAssemblyReference.cache
+F:\unisinos\ProjetoCasoDeEnsino\FourHealth\FourHealth.APPServices\obj\Debug\netcoreapp2.0\FourHealth.APPServices.csproj.CoreCompileInputs.cache
+F:\unisinos\ProjetoCasoDeEnsino\FourHealth\FourHealth.APPServices\obj\Debug\netcoreapp2.0\FourHealth.APPServices.AssemblyInfoInputs.cache
+F:\unisinos\ProjetoCasoDeEnsino\FourHealth\FourHealth.APPServices\obj\Debug\netcoreapp2.0\FourHealth.APPServices.AssemblyInfo.cs
+F:\unisinos\ProjetoCasoDeEnsino\FourHealth\FourHealth.APPServices\obj\Debug\netcoreapp2.0\FourHealth.APPServices.dll
+F:\unisinos\ProjetoCasoDeEnsino\FourHealth\FourHealth.APPServices\obj\Debug\netcoreapp2.0\FourHealth.APPServices.pdb
+F:\unisinos\ProjetoCasoDeEnsino\FourHealth\FourHealth.APPServices\bin\Debug\netcoreapp2.0\FourHealth.Domain.dll
+F:\unisinos\ProjetoCasoDeEnsino\FourHealth\FourHealth.APPServices\bin\Debug\netcoreapp2.0\FourHealth.DomainServices.dll
+F:\unisinos\ProjetoCasoDeEnsino\FourHealth\FourHealth.APPServices\bin\Debug\netcoreapp2.0\FourHealth.DomainServices.pdb
+F:\unisinos\ProjetoCasoDeEnsino\FourHealth\FourHealth.APPServices\bin\Debug\netcoreapp2.0\FourHealth.Domain.pdb
+F:\unisinos\ProjetoCasoDeEnsino\FourHealth\FourHealth.APPServices\obj\Debug\netcoreapp2.0\FourHealth.APPServices.csproj.CopyComplete

@@ -1,0 +1,14 @@
+F:\unisinos\ProjetoCasoDeEnsino\FourHealth\FourHealth.Data\obj\Debug\netcoreapp2.0\FourHealth.Data.csprojResolveAssemblyReference.cache
+F:\unisinos\ProjetoCasoDeEnsino\FourHealth\FourHealth.Data\obj\Debug\netcoreapp2.0\FourHealth.Data.csproj.CoreCompileInputs.cache
+F:\unisinos\ProjetoCasoDeEnsino\FourHealth\FourHealth.Data\obj\Debug\netcoreapp2.0\FourHealth.Data.AssemblyInfoInputs.cache
+F:\unisinos\ProjetoCasoDeEnsino\FourHealth\FourHealth.Data\obj\Debug\netcoreapp2.0\FourHealth.Data.AssemblyInfo.cs
+F:\unisinos\ProjetoCasoDeEnsino\FourHealth\FourHealth.Data\bin\Debug\netcoreapp2.0\FourHealth.Data.deps.json
+F:\unisinos\ProjetoCasoDeEnsino\FourHealth\FourHealth.Data\bin\Debug\netcoreapp2.0\FourHealth.Data.dll
+F:\unisinos\ProjetoCasoDeEnsino\FourHealth\FourHealth.Data\bin\Debug\netcoreapp2.0\FourHealth.Domain.dll
+F:\unisinos\ProjetoCasoDeEnsino\FourHealth\FourHealth.Data\bin\Debug\netcoreapp2.0\Microsoft.Extensions.Configuration.Abstractions.dll
+F:\unisinos\ProjetoCasoDeEnsino\FourHealth\FourHealth.Data\bin\Debug\netcoreapp2.0\FourHealth.Domain.pdb
+F:\unisinos\ProjetoCasoDeEnsino\FourHealth\FourHealth.Data\bin\Debug\netcoreapp2.0\Microsoft.Extensions.Configuration.Abstractions.xml
+F:\unisinos\ProjetoCasoDeEnsino\FourHealth\FourHealth.Data\obj\Debug\netcoreapp2.0\FourHealth.Data.csproj.CopyComplete
+F:\unisinos\ProjetoCasoDeEnsino\FourHealth\FourHealth.Data\bin\Debug\netcoreapp2.0\FourHealth.Data.pdb
+F:\unisinos\ProjetoCasoDeEnsino\FourHealth\FourHealth.Data\obj\Debug\netcoreapp2.0\FourHealth.Data.dll
+F:\unisinos\ProjetoCasoDeEnsino\FourHealth\FourHealth.Data\obj\Debug\netcoreapp2.0\FourHealth.Data.pdb

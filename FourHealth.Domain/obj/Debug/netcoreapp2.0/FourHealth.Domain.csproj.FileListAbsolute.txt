@@ -1,0 +1,9 @@
+F:\unisinos\ProjetoCasoDeEnsino\FourHealth\FourHealth.Domain\bin\Debug\netcoreapp2.0\FourHealth.Domain.deps.json
+F:\unisinos\ProjetoCasoDeEnsino\FourHealth\FourHealth.Domain\bin\Debug\netcoreapp2.0\FourHealth.Domain.dll
+F:\unisinos\ProjetoCasoDeEnsino\FourHealth\FourHealth.Domain\bin\Debug\netcoreapp2.0\FourHealth.Domain.pdb
+F:\unisinos\ProjetoCasoDeEnsino\FourHealth\FourHealth.Domain\obj\Debug\netcoreapp2.0\FourHealth.Domain.csproj.CoreCompileInputs.cache
+F:\unisinos\ProjetoCasoDeEnsino\FourHealth\FourHealth.Domain\obj\Debug\netcoreapp2.0\FourHealth.Domain.AssemblyInfoInputs.cache
+F:\unisinos\ProjetoCasoDeEnsino\FourHealth\FourHealth.Domain\obj\Debug\netcoreapp2.0\FourHealth.Domain.AssemblyInfo.cs
+F:\unisinos\ProjetoCasoDeEnsino\FourHealth\FourHealth.Domain\obj\Debug\netcoreapp2.0\FourHealth.Domain.dll
+F:\unisinos\ProjetoCasoDeEnsino\FourHealth\FourHealth.Domain\obj\Debug\netcoreapp2.0\FourHealth.Domain.pdb
+F:\unisinos\ProjetoCasoDeEnsino\FourHealth\FourHealth.Domain\obj\Debug\netcoreapp2.0\FourHealth.Domain.csprojResolveAssemblyReference.cache

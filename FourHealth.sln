@@ -1,0 +1,84 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2011
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FourHealth.MVC", "FourHealth.MVC\FourHealth.MVC.csproj", "{3C2BCA5B-950A-4D43-85A1-6F4179D494EA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FourHealth.AppServices", "FourHealth.APPServices\FourHealth.AppServices.csproj", "{B2A176FF-C5E8-44E3-8545-6C1EC5672D4E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1-FourHealth.MVC", "1-FourHealth.MVC", "{C846490F-7951-447A-B4A7-173E0288B659}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2-FourHealth.AppServices", "2-FourHealth.AppServices", "{44D8F653-583B-4F65-9308-944D67BF3484}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3-FourHealth.DomainServices", "3-FourHealth.DomainServices", "{3964D4F6-2252-487C-8D2B-98C08DA482EC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4-FourHealth.Domain", "4-FourHealth.Domain", "{535D0BE7-3730-4028-8238-6A93CD522E67}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5-FourHealth.Data", "5-FourHealth.Data", "{AAEDF8A5-F89B-40A1-89B3-82E7453243D4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FourHealth.DomainServices", "FourHealth.DomainServices\FourHealth.DomainServices.csproj", "{362A2D08-C4E0-4FA9-937E-BCE3ABEF4CC1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FourHealth.Domain", "FourHealth.Domain\FourHealth.Domain.csproj", "{56E1E64F-6131-4B5A-9E65-C05ACB80FA0F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "7-FourHealth.Tests", "7-FourHealth.Tests", "{E29BE2D0-01A6-4DA6-9C44-2BFF8A05C349}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FourHealth.Tests", "FourHealth.Tests\FourHealth.Tests.csproj", "{4F6EC718-9EFB-4DC3-A632-5F66084722B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FourHealth.IoC", "Fourhealth.IoC\FourHealth.IoC.csproj", "{C47E1646-CAA3-4495-B6DA-3344D38F4BCA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "6-Fourhealth.IoC", "6-Fourhealth.IoC", "{037EA1B2-A78C-49DF-8169-BC9CA23AC72A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FourHealth.Data", "FourHealth.Data\FourHealth.Data.csproj", "{20300BAD-DBEC-4E1A-9E41-8B76F4093810}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3C2BCA5B-950A-4D43-85A1-6F4179D494EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C2BCA5B-950A-4D43-85A1-6F4179D494EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C2BCA5B-950A-4D43-85A1-6F4179D494EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C2BCA5B-950A-4D43-85A1-6F4179D494EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2A176FF-C5E8-44E3-8545-6C1EC5672D4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2A176FF-C5E8-44E3-8545-6C1EC5672D4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2A176FF-C5E8-44E3-8545-6C1EC5672D4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2A176FF-C5E8-44E3-8545-6C1EC5672D4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{362A2D08-C4E0-4FA9-937E-BCE3ABEF4CC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{362A2D08-C4E0-4FA9-937E-BCE3ABEF4CC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{362A2D08-C4E0-4FA9-937E-BCE3ABEF4CC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{362A2D08-C4E0-4FA9-937E-BCE3ABEF4CC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56E1E64F-6131-4B5A-9E65-C05ACB80FA0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56E1E64F-6131-4B5A-9E65-C05ACB80FA0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56E1E64F-6131-4B5A-9E65-C05ACB80FA0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56E1E64F-6131-4B5A-9E65-C05ACB80FA0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F6EC718-9EFB-4DC3-A632-5F66084722B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F6EC718-9EFB-4DC3-A632-5F66084722B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F6EC718-9EFB-4DC3-A632-5F66084722B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F6EC718-9EFB-4DC3-A632-5F66084722B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C47E1646-CAA3-4495-B6DA-3344D38F4BCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C47E1646-CAA3-4495-B6DA-3344D38F4BCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C47E1646-CAA3-4495-B6DA-3344D38F4BCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C47E1646-CAA3-4495-B6DA-3344D38F4BCA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20300BAD-DBEC-4E1A-9E41-8B76F4093810}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20300BAD-DBEC-4E1A-9E41-8B76F4093810}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20300BAD-DBEC-4E1A-9E41-8B76F4093810}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20300BAD-DBEC-4E1A-9E41-8B76F4093810}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3C2BCA5B-950A-4D43-85A1-6F4179D494EA} = {C846490F-7951-447A-B4A7-173E0288B659}
+		{B2A176FF-C5E8-44E3-8545-6C1EC5672D4E} = {44D8F653-583B-4F65-9308-944D67BF3484}
+		{362A2D08-C4E0-4FA9-937E-BCE3ABEF4CC1} = {3964D4F6-2252-487C-8D2B-98C08DA482EC}
+		{56E1E64F-6131-4B5A-9E65-C05ACB80FA0F} = {535D0BE7-3730-4028-8238-6A93CD522E67}
+		{4F6EC718-9EFB-4DC3-A632-5F66084722B5} = {E29BE2D0-01A6-4DA6-9C44-2BFF8A05C349}
+		{C47E1646-CAA3-4495-B6DA-3344D38F4BCA} = {037EA1B2-A78C-49DF-8169-BC9CA23AC72A}
+		{20300BAD-DBEC-4E1A-9E41-8B76F4093810} = {AAEDF8A5-F89B-40A1-89B3-82E7453243D4}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5B130704-0044-42C2-B6AB-52448B5A4CE1}
+	EndGlobalSection
+EndGlobal
