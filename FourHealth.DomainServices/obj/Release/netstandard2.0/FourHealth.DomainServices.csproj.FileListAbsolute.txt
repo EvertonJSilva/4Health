@@ -1,0 +1,12 @@
+F:\unisinos\ProjetoCasoDeEnsino\4Health\FourHealth.DomainServices\bin\Release\netstandard2.0\FourHealth.DomainServices.deps.json
+F:\unisinos\ProjetoCasoDeEnsino\4Health\FourHealth.DomainServices\bin\Release\netstandard2.0\FourHealth.DomainServices.dll
+F:\unisinos\ProjetoCasoDeEnsino\4Health\FourHealth.DomainServices\bin\Release\netstandard2.0\FourHealth.DomainServices.pdb
+F:\unisinos\ProjetoCasoDeEnsino\4Health\FourHealth.DomainServices\bin\Release\netstandard2.0\FourHealth.Domain.dll
+F:\unisinos\ProjetoCasoDeEnsino\4Health\FourHealth.DomainServices\bin\Release\netstandard2.0\FourHealth.Domain.pdb
+F:\unisinos\ProjetoCasoDeEnsino\4Health\FourHealth.DomainServices\obj\Release\netstandard2.0\FourHealth.DomainServices.csprojResolveAssemblyReference.cache
+F:\unisinos\ProjetoCasoDeEnsino\4Health\FourHealth.DomainServices\obj\Release\netstandard2.0\FourHealth.DomainServices.csproj.CoreCompileInputs.cache
+F:\unisinos\ProjetoCasoDeEnsino\4Health\FourHealth.DomainServices\obj\Release\netstandard2.0\FourHealth.DomainServices.AssemblyInfoInputs.cache
+F:\unisinos\ProjetoCasoDeEnsino\4Health\FourHealth.DomainServices\obj\Release\netstandard2.0\FourHealth.DomainServices.AssemblyInfo.cs
+F:\unisinos\ProjetoCasoDeEnsino\4Health\FourHealth.DomainServices\obj\Release\netstandard2.0\FourHealth.DomainServices.csproj.CopyComplete
+F:\unisinos\ProjetoCasoDeEnsino\4Health\FourHealth.DomainServices\obj\Release\netstandard2.0\FourHealth.DomainServices.dll
+F:\unisinos\ProjetoCasoDeEnsino\4Health\FourHealth.DomainServices\obj\Release\netstandard2.0\FourHealth.DomainServices.pdb

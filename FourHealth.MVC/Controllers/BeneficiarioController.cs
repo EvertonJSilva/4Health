@@ -7,11 +7,11 @@ using FourHealth.AppServices.DTOs;
 using FourHealth.AppServices.Interfaces;
 using FourHealth.Domain.Results;
 
-
-// For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-
 namespace FourHealth.MVC.Controllers
 {
+    /// <summary>
+    /// Controle de cadastro de beneficiários
+    /// </summary>
     [Route("api/[controller]")]
     public class BeneficiarioController : Controller
     {
@@ -31,17 +31,22 @@ namespace FourHealth.MVC.Controllers
         }
 
         // GET api/<controller>/5
+        [ProducesResponseType(200)]
+        [ProducesResponseType(404)]
         [HttpGet("{id}")]
-        public BeneficiarioDTO Get(int id)
+        public IActionResult Get(int id)
         {
-            return appService.getById(id);
+            var beneficiario = appService.getById(id);
+
+            if( beneficiario == null)
+            {
+                return NotFound();
+            }
+
+            return Ok(beneficiario);
         }
 
-        //public IActionResult Criar()
-        //{
-        //    return NotFound( )
-        //}
-
+        
         // POST api/<controller>
         [HttpPost]
         public GenericResult<BeneficiarioDTO> Post([FromBody]BeneficiarioDTO beneficiario)

@@ -12,3 +12,17 @@ F:\unisinos\ProjetoCasoDeEnsino\FourHealth\FourHealth.APPServices\obj\Debug\nets
 F:\unisinos\ProjetoCasoDeEnsino\FourHealth\FourHealth.APPServices\obj\Debug\netstandard2.0\FourHealth.AppServices.csproj.CopyComplete
 F:\unisinos\ProjetoCasoDeEnsino\FourHealth\FourHealth.APPServices\obj\Debug\netstandard2.0\FourHealth.AppServices.dll
 F:\unisinos\ProjetoCasoDeEnsino\FourHealth\FourHealth.APPServices\obj\Debug\netstandard2.0\FourHealth.AppServices.pdb
+F:\unisinos\ProjetoCasoDeEnsino\4Health\FourHealth.APPServices\bin\Debug\netstandard2.0\FourHealth.AppServices.deps.json
+F:\unisinos\ProjetoCasoDeEnsino\4Health\FourHealth.APPServices\bin\Debug\netstandard2.0\FourHealth.AppServices.dll
+F:\unisinos\ProjetoCasoDeEnsino\4Health\FourHealth.APPServices\bin\Debug\netstandard2.0\FourHealth.AppServices.pdb
+F:\unisinos\ProjetoCasoDeEnsino\4Health\FourHealth.APPServices\bin\Debug\netstandard2.0\FourHealth.Domain.dll
+F:\unisinos\ProjetoCasoDeEnsino\4Health\FourHealth.APPServices\bin\Debug\netstandard2.0\FourHealth.DomainServices.dll
+F:\unisinos\ProjetoCasoDeEnsino\4Health\FourHealth.APPServices\bin\Debug\netstandard2.0\FourHealth.DomainServices.pdb
+F:\unisinos\ProjetoCasoDeEnsino\4Health\FourHealth.APPServices\bin\Debug\netstandard2.0\FourHealth.Domain.pdb
+F:\unisinos\ProjetoCasoDeEnsino\4Health\FourHealth.APPServices\obj\Debug\netstandard2.0\FourHealth.AppServices.csprojResolveAssemblyReference.cache
+F:\unisinos\ProjetoCasoDeEnsino\4Health\FourHealth.APPServices\obj\Debug\netstandard2.0\FourHealth.AppServices.csproj.CoreCompileInputs.cache
+F:\unisinos\ProjetoCasoDeEnsino\4Health\FourHealth.APPServices\obj\Debug\netstandard2.0\FourHealth.AppServices.AssemblyInfoInputs.cache
+F:\unisinos\ProjetoCasoDeEnsino\4Health\FourHealth.APPServices\obj\Debug\netstandard2.0\FourHealth.AppServices.AssemblyInfo.cs
+F:\unisinos\ProjetoCasoDeEnsino\4Health\FourHealth.APPServices\obj\Debug\netstandard2.0\FourHealth.AppServices.csproj.CopyComplete
+F:\unisinos\ProjetoCasoDeEnsino\4Health\FourHealth.APPServices\obj\Debug\netstandard2.0\FourHealth.AppServices.dll
+F:\unisinos\ProjetoCasoDeEnsino\4Health\FourHealth.APPServices\obj\Debug\netstandard2.0\FourHealth.AppServices.pdb

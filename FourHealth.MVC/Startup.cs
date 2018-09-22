@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using FourHealth.IoC;
+using Swashbuckle.AspNetCore.Swagger;
 
 namespace FourHealth.MVC
 {
@@ -19,13 +20,28 @@ namespace FourHealth.MVC
         }
 
         public IConfiguration Configuration { get; }
-       // public IConfigurationRoot Configuration { get; }
+        // public IConfigurationRoot Configuration { get; }
 
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddSingleton(Configuration);
             MVC.IoC.IoCConfiguration.Configure(services);
+
+            services.AddSwaggerGen(options =>
+            {
+                options.SwaggerDoc("v1", new Info
+                {
+                    Version = "v1",
+                    Title = "FourHealth Api",
+                    Description = "",
+                    TermsOfService = "none"
+                });
+                options.DescribeAllEnumsAsStrings();
+            });
+
+            services.AddApplicationInsightsTelemetry();
+
             services.AddMvc();
             Mappings.AutoMapperConfiguration.Initialize();
         }
@@ -50,6 +66,16 @@ namespace FourHealth.MVC
                 routes.MapRoute(
                     name: "default",
                     template: "{controller=Home}/{action=Index}/{id?}");
+            });
+
+
+            app.UseSwagger();
+            app.UseSwaggerUI(c =>
+            {
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "FourHealth API V1");
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "FourHealth API V2");
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "FourHealth API V3");
+
             });
         }
     }

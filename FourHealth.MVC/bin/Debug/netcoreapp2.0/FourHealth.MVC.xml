@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FourHealth.MVC</name>
+    </assembly>
+    <members>
+        <member name="T:FourHealth.MVC.Controllers.BeneficiarioController">
+            <summary>
+            Controle de cadastro de beneficiários
+            </summary>
+        </member>
+        <member name="T:FourHealth.MVC.Controllers.PerguntaController">
+            <summary>
+            Controle de cadastro de perguntas
+            </summary>
+        </member>
+        <member name="T:FourHealth.MVC.Controllers.ProgramaController">
+            <summary>
+            Controle de cadastro de programas
+            </summary>
+        </member>
+        <member name="T:FourHealth.MVC.Controllers.QuestionarioController">
+            <summary>
+            Controle de cadastro de questionários
+            </summary>
+        </member>
+    </members>
+</doc>

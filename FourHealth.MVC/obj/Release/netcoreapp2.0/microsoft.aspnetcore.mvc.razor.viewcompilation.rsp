@@ -1,0 +1,12 @@
+F:\unisinos\ProjetoCasoDeEnsino\4Health\FourHealth.MVC
+--output-path=obj\Release\netcoreapp2.0\
+--application-name=FourHealth.MVC
+--content-root=F:\unisinos\ProjetoCasoDeEnsino\4Health\FourHealth.MVC
+--file=F:\unisinos\ProjetoCasoDeEnsino\4Health\FourHealth.MVC\Views\Home\About.cshtml
+--file=F:\unisinos\ProjetoCasoDeEnsino\4Health\FourHealth.MVC\Views\Home\Contact.cshtml
+--file=F:\unisinos\ProjetoCasoDeEnsino\4Health\FourHealth.MVC\Views\Home\Index.cshtml
+--file=F:\unisinos\ProjetoCasoDeEnsino\4Health\FourHealth.MVC\Views\Shared\Error.cshtml
+--file=F:\unisinos\ProjetoCasoDeEnsino\4Health\FourHealth.MVC\Views\Shared\_Layout.cshtml
+--file=F:\unisinos\ProjetoCasoDeEnsino\4Health\FourHealth.MVC\Views\Shared\_ValidationScriptsPartial.cshtml
+--file=F:\unisinos\ProjetoCasoDeEnsino\4Health\FourHealth.MVC\Views\_ViewImports.cshtml
+--file=F:\unisinos\ProjetoCasoDeEnsino\4Health\FourHealth.MVC\Views\_ViewStart.cshtml

@@ -2547,11 +2547,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\unisinos\\ProjetoCasoDeEnsino\\FourHealth\\FourHealth.Data\\FourHealth.Data.csproj",
+      "projectUniqueName": "F:\\unisinos\\ProjetoCasoDeEnsino\\4Health\\FourHealth.Data\\FourHealth.Data.csproj",
       "projectName": "FourHealth.Data",
-      "projectPath": "F:\\unisinos\\ProjetoCasoDeEnsino\\FourHealth\\FourHealth.Data\\FourHealth.Data.csproj",
+      "projectPath": "F:\\unisinos\\ProjetoCasoDeEnsino\\4Health\\FourHealth.Data\\FourHealth.Data.csproj",
       "packagesPath": "C:\\Users\\ejsilva\\.nuget\\packages\\",
-      "outputPath": "F:\\unisinos\\ProjetoCasoDeEnsino\\FourHealth\\FourHealth.Data\\obj\\",
+      "outputPath": "F:\\unisinos\\ProjetoCasoDeEnsino\\4Health\\FourHealth.Data\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
@@ -2572,8 +2572,8 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "F:\\unisinos\\ProjetoCasoDeEnsino\\FourHealth\\FourHealth.Domain\\FourHealth.Domain.csproj": {
-              "projectPath": "F:\\unisinos\\ProjetoCasoDeEnsino\\FourHealth\\FourHealth.Domain\\FourHealth.Domain.csproj"
+            "F:\\unisinos\\ProjetoCasoDeEnsino\\4Health\\FourHealth.Domain\\FourHealth.Domain.csproj": {
+              "projectPath": "F:\\unisinos\\ProjetoCasoDeEnsino\\4Health\\FourHealth.Domain\\FourHealth.Domain.csproj"
             }
           }
         }

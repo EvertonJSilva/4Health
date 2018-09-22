@@ -1666,11 +1666,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\unisinos\\ProjetoCasoDeEnsino\\FourHealth\\FourHealth.Domain\\FourHealth.Domain.csproj",
+      "projectUniqueName": "F:\\unisinos\\ProjetoCasoDeEnsino\\4Health\\FourHealth.Domain\\FourHealth.Domain.csproj",
       "projectName": "FourHealth.Domain",
-      "projectPath": "F:\\unisinos\\ProjetoCasoDeEnsino\\FourHealth\\FourHealth.Domain\\FourHealth.Domain.csproj",
+      "projectPath": "F:\\unisinos\\ProjetoCasoDeEnsino\\4Health\\FourHealth.Domain\\FourHealth.Domain.csproj",
       "packagesPath": "C:\\Users\\ejsilva\\.nuget\\packages\\",
-      "outputPath": "F:\\unisinos\\ProjetoCasoDeEnsino\\FourHealth\\FourHealth.Domain\\obj\\",
+      "outputPath": "F:\\unisinos\\ProjetoCasoDeEnsino\\4Health\\FourHealth.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
