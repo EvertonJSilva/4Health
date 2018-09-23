@@ -18,5 +18,18 @@ namespace FourHealth.Domain.Extensions
 
             return result.ToArray();
         }
+
+        public static string[] GetErrors(this ValidationResult validationResult, string erro)
+        {
+            var result = new List<string>();
+
+            if (validationResult != null && validationResult.Errors != null)
+                foreach (var error in validationResult.Errors)
+                    result.Add(error.ErrorMessage);
+
+            result.Add(erro);
+            return result.ToArray();
+        }
+        
     }
 }

@@ -62,9 +62,36 @@ namespace FourHealth.DomainServices
             return this.repository.List(filter);
         }
 
-        public bool Update(Beneficiario beneficiario)
+        public GenericResult<Beneficiario> Update(Beneficiario beneficiario)
         {
-            return this.repository.Update(beneficiario);
+            var result = new GenericResult<Beneficiario>();
+
+            var validatorResult = validator.Validate(beneficiario);
+            if (validatorResult.IsValid)
+            {
+                try
+                { 
+                    result.Success = this.repository.Update(beneficiario);
+
+                    if (!result.Success)
+                    {
+                        result.Errors = validatorResult.GetErrors("Registro não encontrado");
+                    }
+                    else
+                    {
+                        result.Result = this.repository.getById(beneficiario.Id);
+                    }
+                       
+                }
+                catch (Exception ex)
+                {
+                    result.Errors = new string[] { ex.Message };
+                }
+            }
+            else
+                result.Errors = validatorResult.GetErrors();
+
+            return result;
         }
     }
 }

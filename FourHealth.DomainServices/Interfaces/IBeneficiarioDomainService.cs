@@ -15,7 +15,7 @@ namespace FourHealth.DomainServices.Interfaces
 
         Beneficiario getById(int id);
 
-        bool Update(Beneficiario beneficiario);
+        GenericResult<Beneficiario> Update(Beneficiario beneficiario);
         bool Delete(int id);
     }
 }

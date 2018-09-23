@@ -28,7 +28,7 @@ namespace FourHealth.AppServices
 
         public bool Delete(int id)
         {
-            throw new NotImplementedException();
+            return service.Delete(id);
         }
 
         public ProgramaDTO getById(int id)

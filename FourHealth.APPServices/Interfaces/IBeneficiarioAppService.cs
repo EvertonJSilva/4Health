@@ -14,7 +14,7 @@ namespace FourHealth.AppServices.Interfaces
         
         BeneficiarioDTO getById(int id);
 
-        bool Update(BeneficiarioDTO beneficiario);
+        GenericResult<BeneficiarioDTO> Update(BeneficiarioDTO beneficiario);
         bool Delete(int id);
     }
 }

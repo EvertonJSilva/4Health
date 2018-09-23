@@ -18,29 +18,34 @@ namespace FourHealth.Data.Repositories
 
         public Beneficiario Create(Beneficiario beneficiario)
         {
-            beneficiario.Id = Connection.QueryFirst<int>("exec sp_create @Text, @IsCompleted", beneficiario, transaction: transaction);
+            beneficiario.Id = Connection.QueryFirst<int>("exec beneficiario_sp_create @Nome, @CPF", beneficiario, transaction: transaction);
             return beneficiario;
         }
 
         public bool Delete(int id)
         {
-            throw new NotImplementedException();
+            var affectedRows = Connection.Execute("Exec base_sp_delete @Id, [Beneficiario]", new { Id = id }, transaction: transaction);
+
+            return affectedRows > 0;
         }
 
         public Beneficiario getById(int id)
         {
-            var result = Connection.QueryFirstOrDefault<Beneficiario>("exec sp_get @Id", new { Id = id }, transaction: transaction);
+            var result = Connection.QueryFirstOrDefault<Beneficiario>("exec base_sp_get @Id, [Beneficiario]", new { Id = id }, transaction: transaction);
             return result;
         }
 
         public IEnumerable<Beneficiario> List(BeneficiarioFilter filter)
         {
-            throw new NotImplementedException();
+            var result = Connection.Query<Beneficiario>("exec beneficiario_sp_list @Nome, @cpf, @Id", filter, transaction: transaction);
+
+            return result;
         }
 
         public bool Update(Beneficiario beneficiario)
         {
-            throw new NotImplementedException();
+            var affectedRows = Connection.Execute("exec beneficiario_sp_update @Nome, @cpf, @Id", beneficiario, transaction: transaction);
+            return affectedRows > 0;
         }
     }
 }

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 using FourHealth.Domain.Entities;
+using FourHealth.Domain.Filters;
 using FourHealth.DomainServices.Interfaces;
 using FourHealth.AppServices.DTOs;
 using FourHealth.AppServices.Interfaces;
@@ -28,7 +29,7 @@ namespace FourHealth.AppServices
         
         public bool Delete(int id)
         {
-            throw new NotImplementedException();
+            return service.Delete(id);
         }
 
         public BeneficiarioDTO getById(int id)
@@ -39,12 +40,14 @@ namespace FourHealth.AppServices
 
         public IEnumerable<BeneficiarioDTO> List(BeneficiarioFilterDTO filter)
         {
-            throw new NotImplementedException();
+            return service.List(filter.MapTo<BeneficiarioFilter>()).EnumerableTo<BeneficiarioDTO>();
         }
 
-        public bool Update(BeneficiarioDTO beneficiario)
+        public GenericResult<BeneficiarioDTO> Update(BeneficiarioDTO beneficiario)
         {
-            throw new NotImplementedException();
+            var result = service.Update(beneficiario.MapTo<Beneficiario>());
+            return result.MapTo<GenericResult<BeneficiarioDTO>>();
+            
         }
     }
 }

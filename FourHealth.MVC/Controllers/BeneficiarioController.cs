@@ -55,8 +55,8 @@ namespace FourHealth.MVC.Controllers
         }
 
         // PUT api/<controller>/5
-        [HttpPut("{id}")]
-        public bool Put(int id, [FromBody]BeneficiarioDTO beneficiario)
+        [HttpPut()]
+        public GenericResult<BeneficiarioDTO> Put( [FromBody]BeneficiarioDTO beneficiario)
         {
             return appService.Update(beneficiario);
         }
