@@ -1,0 +1,15 @@
+F:\unisinos\ProjetoCasoDeEnsino\4Health\Logs\bin\Debug\Logs.pssym
+F:\unisinos\ProjetoCasoDeEnsino\4Health\Logs\bin\Debug\Logs.dll
+F:\unisinos\ProjetoCasoDeEnsino\4Health\Logs\bin\Debug\Logs.pdb
+F:\unisinos\ProjetoCasoDeEnsino\4Health\Logs\bin\Debug\NLog.dll
+F:\unisinos\ProjetoCasoDeEnsino\4Health\Logs\bin\Debug\PostSharp.dll
+F:\unisinos\ProjetoCasoDeEnsino\4Health\Logs\bin\Debug\NLog.xml
+F:\unisinos\ProjetoCasoDeEnsino\4Health\Logs\bin\Debug\PostSharp.xml
+F:\unisinos\ProjetoCasoDeEnsino\4Health\Logs\obj\Debug\Logs.csprojResolveAssemblyReference.cache
+F:\unisinos\ProjetoCasoDeEnsino\4Health\Logs\obj\Debug\Logs.csproj.CoreCompileInputs.cache
+F:\unisinos\ProjetoCasoDeEnsino\4Health\Logs\obj\Debug\Logs.csproj.CopyComplete
+F:\unisinos\ProjetoCasoDeEnsino\4Health\Logs\obj\Debug\PostSharp\touch
+F:\unisinos\ProjetoCasoDeEnsino\4Health\Logs\obj\Debug\PostSharp\dependencies.txt
+F:\unisinos\ProjetoCasoDeEnsino\4Health\Logs\obj\Debug\Logs.dll
+F:\unisinos\ProjetoCasoDeEnsino\4Health\Logs\obj\Debug\Logs.pdb
+F:\unisinos\ProjetoCasoDeEnsino\4Health\Logs\obj\Debug\PostSharp\postsharp.app.config

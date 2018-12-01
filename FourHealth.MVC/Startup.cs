@@ -8,6 +8,18 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using FourHealth.IoC;
 using Swashbuckle.AspNetCore.Swagger;
+using PostSharp;
+using FourHealth.Logs;
+using Logs;
+using Microsoft.AspNetCore.Mvc;
+
+// Add logging to every method in the assembly.
+[assembly: LogMethod(AttributePriority = 0)]
+
+// Remove logging from the Aspects namespace to avoid infinite recursions (logging would log itself).
+[assembly:
+  LogMethod(AttributePriority = 1, AttributeExclude = true,
+    AttributeTargetTypes = "FourHealth.Logs.*")]
 
 namespace FourHealth.MVC
 {
@@ -19,7 +31,7 @@ namespace FourHealth.MVC
 
         }
 
-        public IConfiguration Configuration { get; }
+        public IConfiguration Configuration { get; set; }
         // public IConfigurationRoot Configuration { get; }
 
         // This method gets called by the runtime. Use this method to add services to the container.
@@ -56,9 +68,15 @@ namespace FourHealth.MVC
             }
             else
             {
-                app.UseExceptionHandler("/Home/Error");
+                var builder = new ConfigurationBuilder()
+                .SetBasePath(env.ContentRootPath)
+                .AddJsonFile("appsettings.json", optional: false, reloadOnChange: true)
+                .AddJsonFile($"appsettings.{env.EnvironmentName}.json", optional: true)
+                .AddEnvironmentVariables();
+                Configuration = builder.Build();
             }
 
+            
             app.UseStaticFiles();
 
             app.UseMvc(routes =>
@@ -77,6 +95,7 @@ namespace FourHealth.MVC
                 c.SwaggerEndpoint("/swagger/v1/swagger.json", "FourHealth API V3");
 
             });
+
         }
     }
 }

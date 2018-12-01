@@ -19,10 +19,10 @@ F:\unisinos\ProjetoCasoDeEnsino\4Health\FourHealth.Data\bin\Debug\netstandard2.0
 F:\unisinos\ProjetoCasoDeEnsino\4Health\FourHealth.Data\bin\Debug\netstandard2.0\Microsoft.Extensions.Configuration.Abstractions.dll
 F:\unisinos\ProjetoCasoDeEnsino\4Health\FourHealth.Data\bin\Debug\netstandard2.0\FourHealth.Domain.pdb
 F:\unisinos\ProjetoCasoDeEnsino\4Health\FourHealth.Data\bin\Debug\netstandard2.0\Microsoft.Extensions.Configuration.Abstractions.xml
-F:\unisinos\ProjetoCasoDeEnsino\4Health\FourHealth.Data\obj\Debug\netstandard2.0\FourHealth.Data.csprojResolveAssemblyReference.cache
 F:\unisinos\ProjetoCasoDeEnsino\4Health\FourHealth.Data\obj\Debug\netstandard2.0\FourHealth.Data.csproj.CoreCompileInputs.cache
 F:\unisinos\ProjetoCasoDeEnsino\4Health\FourHealth.Data\obj\Debug\netstandard2.0\FourHealth.Data.AssemblyInfoInputs.cache
 F:\unisinos\ProjetoCasoDeEnsino\4Health\FourHealth.Data\obj\Debug\netstandard2.0\FourHealth.Data.AssemblyInfo.cs
 F:\unisinos\ProjetoCasoDeEnsino\4Health\FourHealth.Data\obj\Debug\netstandard2.0\FourHealth.Data.csproj.CopyComplete
 F:\unisinos\ProjetoCasoDeEnsino\4Health\FourHealth.Data\obj\Debug\netstandard2.0\FourHealth.Data.dll
 F:\unisinos\ProjetoCasoDeEnsino\4Health\FourHealth.Data\obj\Debug\netstandard2.0\FourHealth.Data.pdb
+F:\unisinos\ProjetoCasoDeEnsino\4Health\FourHealth.Data\obj\Debug\netstandard2.0\FourHealth.Data.csprojAssemblyReference.cache

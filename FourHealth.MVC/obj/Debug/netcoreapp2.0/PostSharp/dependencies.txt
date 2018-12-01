@@ -1,0 +1,2 @@
+C:\ProgramData\PostSharp\6.0.30\bin.Release\netcoreapp2.0\PostSharp.Compiler.Engine.dll
+F:\unisinos\ProjetoCasoDeEnsino\4Health\FourHealth.MVC\obj\Debug\netcoreapp2.0\PostSharp\postsharp.config

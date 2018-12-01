@@ -1,0 +1,12 @@
+2018-11-22 22:07:29.0047|DEBUG|Logs.Logger|
+2018-11-22 22:07:29.1189|DEBUG|Logs.Logger|BeneficiarioController-> Método POST->  CPF: string Nome: string ID: 0
+2018-11-22 22:07:29.2331|DEBUG|Logs.Logger|
+2018-11-22 22:07:29.2331|DEBUG|Logs.Logger|Retorno do método
+2018-11-22 22:07:47.3493|DEBUG|Logs.Logger|
+2018-11-22 22:07:47.3493|DEBUG|Logs.Logger|BeneficiarioController-> Método PUT->  CPF: string Nome: string ID: 0
+2018-11-22 22:07:47.3662|DEBUG|Logs.Logger|
+2018-11-22 22:07:47.3788|DEBUG|Logs.Logger|Retorno do método
+2018-11-22 22:07:54.3491|DEBUG|Logs.Logger|
+2018-11-22 22:07:54.3491|DEBUG|Logs.Logger|BeneficiarioController-> Método GET->  CPF:  Nome:  ID: 
+2018-11-22 22:07:56.1558|DEBUG|Logs.Logger|
+2018-11-22 22:07:56.1570|DEBUG|Logs.Logger|Retorno do método

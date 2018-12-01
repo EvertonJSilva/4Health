@@ -6,6 +6,8 @@ using Microsoft.AspNetCore.Mvc;
 using FourHealth.AppServices.DTOs;
 using FourHealth.AppServices.Interfaces;
 using FourHealth.Domain.Results;
+using Logs;
+
 
 namespace FourHealth.MVC.Controllers
 {
@@ -20,7 +22,6 @@ namespace FourHealth.MVC.Controllers
         public BeneficiarioController(IBeneficiarioAppService appService)
         {
             this.appService = appService;
-      
         }      
 
         // GET: api/<controller>

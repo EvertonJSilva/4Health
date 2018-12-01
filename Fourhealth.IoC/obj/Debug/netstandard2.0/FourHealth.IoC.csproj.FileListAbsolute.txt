@@ -31,10 +31,10 @@ F:\unisinos\ProjetoCasoDeEnsino\4Health\Fourhealth.IoC\bin\Debug\netstandard2.0\
 F:\unisinos\ProjetoCasoDeEnsino\4Health\Fourhealth.IoC\bin\Debug\netstandard2.0\FourHealth.DomainServices.pdb
 F:\unisinos\ProjetoCasoDeEnsino\4Health\Fourhealth.IoC\bin\Debug\netstandard2.0\FourHealth.Domain.pdb
 F:\unisinos\ProjetoCasoDeEnsino\4Health\Fourhealth.IoC\bin\Debug\netstandard2.0\Microsoft.Extensions.Configuration.Abstractions.xml
-F:\unisinos\ProjetoCasoDeEnsino\4Health\Fourhealth.IoC\obj\Debug\netstandard2.0\FourHealth.IoC.csprojResolveAssemblyReference.cache
 F:\unisinos\ProjetoCasoDeEnsino\4Health\Fourhealth.IoC\obj\Debug\netstandard2.0\FourHealth.IoC.csproj.CoreCompileInputs.cache
 F:\unisinos\ProjetoCasoDeEnsino\4Health\Fourhealth.IoC\obj\Debug\netstandard2.0\FourHealth.IoC.AssemblyInfoInputs.cache
 F:\unisinos\ProjetoCasoDeEnsino\4Health\Fourhealth.IoC\obj\Debug\netstandard2.0\FourHealth.IoC.AssemblyInfo.cs
 F:\unisinos\ProjetoCasoDeEnsino\4Health\Fourhealth.IoC\obj\Debug\netstandard2.0\FourHealth.IoC.csproj.CopyComplete
 F:\unisinos\ProjetoCasoDeEnsino\4Health\Fourhealth.IoC\obj\Debug\netstandard2.0\FourHealth.IoC.dll
 F:\unisinos\ProjetoCasoDeEnsino\4Health\Fourhealth.IoC\obj\Debug\netstandard2.0\FourHealth.IoC.pdb
+F:\unisinos\ProjetoCasoDeEnsino\4Health\Fourhealth.IoC\obj\Debug\netstandard2.0\FourHealth.IoC.csprojAssemblyReference.cache

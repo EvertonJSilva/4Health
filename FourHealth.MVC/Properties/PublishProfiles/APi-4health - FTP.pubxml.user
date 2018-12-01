@@ -11,73 +11,73 @@ ao editar este arquivo MSBuild. Para saber mais sobre isso, visite https://go.mi
   </PropertyGroup>
   <ItemGroup>
     <File Include="appsettings.Development.json">
-      <publishTime>08/01/2018 21:43:15</publishTime>
+      <publishTime>01/08/2018 21:43:15</publishTime>
     </File>
     <File Include="appsettings.json">
-      <publishTime>09/22/2018 12:33:34</publishTime>
+      <publishTime>11/20/2018 00:04:32</publishTime>
     </File>
     <File Include="AutoMapper.dll">
       <publishTime>06/18/2018 13:00:14</publishTime>
     </File>
     <File Include="bundleconfig.json">
-      <publishTime>08/01/2018 21:43:15</publishTime>
+      <publishTime>01/08/2018 21:43:15</publishTime>
     </File>
     <File Include="Dapper.dll">
       <publishTime>05/16/2018 18:40:32</publishTime>
     </File>
     <File Include="FluentValidation.dll">
-      <publishTime>07/06/2018 14:58:18</publishTime>
+      <publishTime>06/07/2018 14:58:18</publishTime>
     </File>
     <File Include="FourHealth.AppServices.dll">
-      <publishTime>09/22/2018 13:45:58</publishTime>
+      <publishTime>11/19/2018 23:54:34</publishTime>
     </File>
     <File Include="FourHealth.AppServices.pdb">
-      <publishTime>09/22/2018 13:45:58</publishTime>
+      <publishTime>11/19/2018 23:54:34</publishTime>
     </File>
     <File Include="FourHealth.Data.dll">
-      <publishTime>09/22/2018 13:45:59</publishTime>
+      <publishTime>11/20/2018 00:05:57</publishTime>
     </File>
     <File Include="FourHealth.Data.pdb">
-      <publishTime>09/22/2018 13:45:59</publishTime>
+      <publishTime>11/20/2018 00:05:57</publishTime>
     </File>
     <File Include="FourHealth.Domain.dll">
-      <publishTime>09/22/2018 13:45:56</publishTime>
+      <publishTime>11/19/2018 23:54:32</publishTime>
     </File>
     <File Include="FourHealth.Domain.pdb">
-      <publishTime>09/22/2018 13:45:56</publishTime>
+      <publishTime>11/19/2018 23:54:32</publishTime>
     </File>
     <File Include="FourHealth.DomainServices.dll">
-      <publishTime>09/22/2018 13:45:57</publishTime>
+      <publishTime>11/19/2018 23:54:33</publishTime>
     </File>
     <File Include="FourHealth.DomainServices.pdb">
-      <publishTime>09/22/2018 13:45:57</publishTime>
+      <publishTime>11/19/2018 23:54:33</publishTime>
     </File>
     <File Include="FourHealth.IoC.dll">
-      <publishTime>09/22/2018 13:46:00</publishTime>
+      <publishTime>11/20/2018 00:05:58</publishTime>
     </File>
     <File Include="FourHealth.IoC.pdb">
-      <publishTime>09/22/2018 13:46:00</publishTime>
+      <publishTime>11/20/2018 00:05:58</publishTime>
     </File>
     <File Include="FourHealth.MVC.deps.json">
-      <publishTime>09/22/2018 13:46:11</publishTime>
+      <publishTime>11/20/2018 00:06:14</publishTime>
     </File>
     <File Include="FourHealth.MVC.dll">
-      <publishTime>09/22/2018 13:46:06</publishTime>
+      <publishTime>11/20/2018 00:06:06</publishTime>
     </File>
     <File Include="FourHealth.MVC.pdb">
-      <publishTime>09/22/2018 13:46:06</publishTime>
+      <publishTime>11/20/2018 00:06:06</publishTime>
     </File>
     <File Include="FourHealth.MVC.PrecompiledViews.dll">
-      <publishTime>09/22/2018 13:46:10</publishTime>
+      <publishTime>11/20/2018 00:06:11</publishTime>
     </File>
     <File Include="FourHealth.MVC.PrecompiledViews.pdb">
-      <publishTime>09/22/2018 13:46:10</publishTime>
+      <publishTime>11/20/2018 00:06:11</publishTime>
     </File>
     <File Include="FourHealth.MVC.runtimeconfig.json">
-      <publishTime>09/22/2018 13:46:11</publishTime>
+      <publishTime>11/20/2018 00:06:14</publishTime>
     </File>
     <File Include="Microsoft.Extensions.DependencyInjection.Abstractions.dll">
-      <publishTime>06/07/2018 00:27:02</publishTime>
+      <publishTime>07/06/2018 00:27:02</publishTime>
     </File>
     <File Include="Microsoft.Win32.Registry.dll">
       <publishTime>05/15/2018 13:29:36</publishTime>
@@ -107,16 +107,16 @@ ao editar este arquivo MSBuild. Para saber mais sobre isso, visite https://go.mi
       <publishTime>06/06/2018 13:29:06</publishTime>
     </File>
     <File Include="Swashbuckle.AspNetCore.dll">
-      <publishTime>07/06/2018 17:09:06</publishTime>
+      <publishTime>06/07/2018 17:09:06</publishTime>
     </File>
     <File Include="Swashbuckle.AspNetCore.Swagger.dll">
-      <publishTime>07/06/2018 17:09:02</publishTime>
+      <publishTime>06/07/2018 17:09:02</publishTime>
     </File>
     <File Include="Swashbuckle.AspNetCore.SwaggerGen.dll">
-      <publishTime>07/06/2018 17:09:02</publishTime>
+      <publishTime>06/07/2018 17:09:02</publishTime>
     </File>
     <File Include="Swashbuckle.AspNetCore.SwaggerUI.dll">
-      <publishTime>07/06/2018 17:09:04</publishTime>
+      <publishTime>06/07/2018 17:09:04</publishTime>
     </File>
     <File Include="System.Data.SqlClient.dll">
       <publishTime>06/06/2018 13:29:06</publishTime>
@@ -140,130 +140,130 @@ ao editar este arquivo MSBuild. Para saber mais sobre isso, visite https://go.mi
       <publishTime>05/15/2018 13:29:52</publishTime>
     </File>
     <File Include="web.config">
-      <publishTime>09/22/2018 13:46:11</publishTime>
+      <publishTime>11/20/2018 00:06:14</publishTime>
     </File>
     <File Include="wwwroot/css/site.css">
-      <publishTime>08/01/2018 21:43:16</publishTime>
+      <publishTime>01/08/2018 21:43:16</publishTime>
     </File>
     <File Include="wwwroot/css/site.min.css">
-      <publishTime>08/01/2018 21:43:16</publishTime>
+      <publishTime>01/08/2018 21:43:16</publishTime>
     </File>
     <File Include="wwwroot/favicon.ico">
-      <publishTime>08/01/2018 21:43:16</publishTime>
+      <publishTime>01/08/2018 21:43:16</publishTime>
     </File>
     <File Include="wwwroot/images/banner1.svg">
-      <publishTime>08/01/2018 21:43:16</publishTime>
+      <publishTime>01/08/2018 21:43:16</publishTime>
     </File>
     <File Include="wwwroot/images/banner2.svg">
-      <publishTime>08/01/2018 21:43:16</publishTime>
+      <publishTime>01/08/2018 21:43:16</publishTime>
     </File>
     <File Include="wwwroot/images/banner3.svg">
-      <publishTime>08/01/2018 21:43:16</publishTime>
+      <publishTime>01/08/2018 21:43:16</publishTime>
     </File>
     <File Include="wwwroot/images/banner4.svg">
-      <publishTime>08/01/2018 21:43:16</publishTime>
+      <publishTime>01/08/2018 21:43:16</publishTime>
     </File>
     <File Include="wwwroot/js/site.js">
-      <publishTime>08/01/2018 21:43:16</publishTime>
+      <publishTime>01/08/2018 21:43:16</publishTime>
     </File>
     <File Include="wwwroot/js/site.min.js">
-      <publishTime>08/01/2018 21:43:16</publishTime>
+      <publishTime>01/08/2018 21:43:16</publishTime>
     </File>
     <File Include="wwwroot/lib/bootstrap/.bower.json">
-      <publishTime>08/01/2018 21:43:16</publishTime>
+      <publishTime>01/08/2018 21:43:16</publishTime>
     </File>
     <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-theme.css">
-      <publishTime>08/01/2018 21:43:16</publishTime>
+      <publishTime>01/08/2018 21:43:16</publishTime>
     </File>
     <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-theme.css.map">
-      <publishTime>08/01/2018 21:43:16</publishTime>
+      <publishTime>01/08/2018 21:43:16</publishTime>
     </File>
     <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-theme.min.css">
-      <publishTime>08/01/2018 21:43:16</publishTime>
+      <publishTime>01/08/2018 21:43:16</publishTime>
     </File>
     <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-theme.min.css.map">
-      <publishTime>08/01/2018 21:43:16</publishTime>
+      <publishTime>01/08/2018 21:43:16</publishTime>
     </File>
     <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap.css">
-      <publishTime>08/01/2018 21:43:16</publishTime>
+      <publishTime>01/08/2018 21:43:16</publishTime>
     </File>
     <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap.css.map">
-      <publishTime>08/01/2018 21:43:16</publishTime>
+      <publishTime>01/08/2018 21:43:16</publishTime>
     </File>
     <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap.min.css">
-      <publishTime>08/01/2018 21:43:16</publishTime>
+      <publishTime>01/08/2018 21:43:16</publishTime>
     </File>
     <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map">
-      <publishTime>08/01/2018 21:43:16</publishTime>
+      <publishTime>01/08/2018 21:43:16</publishTime>
     </File>
     <File Include="wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.eot">
-      <publishTime>08/01/2018 21:43:16</publishTime>
+      <publishTime>01/08/2018 21:43:16</publishTime>
     </File>
     <File Include="wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.svg">
-      <publishTime>08/01/2018 21:43:16</publishTime>
+      <publishTime>01/08/2018 21:43:16</publishTime>
     </File>
     <File Include="wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.ttf">
-      <publishTime>08/01/2018 21:43:16</publishTime>
+      <publishTime>01/08/2018 21:43:16</publishTime>
     </File>
     <File Include="wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff">
-      <publishTime>08/01/2018 21:43:16</publishTime>
+      <publishTime>01/08/2018 21:43:16</publishTime>
     </File>
     <File Include="wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2">
-      <publishTime>08/01/2018 21:43:16</publishTime>
+      <publishTime>01/08/2018 21:43:16</publishTime>
     </File>
     <File Include="wwwroot/lib/bootstrap/dist/js/bootstrap.js">
-      <publishTime>08/01/2018 21:43:16</publishTime>
+      <publishTime>01/08/2018 21:43:16</publishTime>
     </File>
     <File Include="wwwroot/lib/bootstrap/dist/js/bootstrap.min.js">
-      <publishTime>08/01/2018 21:43:16</publishTime>
+      <publishTime>01/08/2018 21:43:16</publishTime>
     </File>
     <File Include="wwwroot/lib/bootstrap/dist/js/npm.js">
-      <publishTime>08/01/2018 21:43:16</publishTime>
+      <publishTime>01/08/2018 21:43:16</publishTime>
     </File>
     <File Include="wwwroot/lib/bootstrap/LICENSE">
-      <publishTime>08/01/2018 21:43:16</publishTime>
+      <publishTime>01/08/2018 21:43:16</publishTime>
     </File>
     <File Include="wwwroot/lib/jquery-validation-unobtrusive/.bower.json">
-      <publishTime>08/01/2018 21:43:16</publishTime>
+      <publishTime>01/08/2018 21:43:16</publishTime>
     </File>
     <File Include="wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js">
-      <publishTime>08/01/2018 21:43:16</publishTime>
+      <publishTime>01/08/2018 21:43:16</publishTime>
     </File>
     <File Include="wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js">
-      <publishTime>08/01/2018 21:43:16</publishTime>
+      <publishTime>01/08/2018 21:43:16</publishTime>
     </File>
     <File Include="wwwroot/lib/jquery-validation/.bower.json">
-      <publishTime>08/01/2018 21:43:17</publishTime>
+      <publishTime>01/08/2018 21:43:17</publishTime>
     </File>
     <File Include="wwwroot/lib/jquery-validation/dist/additional-methods.js">
-      <publishTime>08/01/2018 21:43:17</publishTime>
+      <publishTime>01/08/2018 21:43:17</publishTime>
     </File>
     <File Include="wwwroot/lib/jquery-validation/dist/additional-methods.min.js">
-      <publishTime>08/01/2018 21:43:17</publishTime>
+      <publishTime>01/08/2018 21:43:17</publishTime>
     </File>
     <File Include="wwwroot/lib/jquery-validation/dist/jquery.validate.js">
-      <publishTime>08/01/2018 21:43:17</publishTime>
+      <publishTime>01/08/2018 21:43:17</publishTime>
     </File>
     <File Include="wwwroot/lib/jquery-validation/dist/jquery.validate.min.js">
-      <publishTime>08/01/2018 21:43:17</publishTime>
+      <publishTime>01/08/2018 21:43:17</publishTime>
     </File>
     <File Include="wwwroot/lib/jquery-validation/LICENSE.md">
-      <publishTime>08/01/2018 21:43:17</publishTime>
+      <publishTime>01/08/2018 21:43:17</publishTime>
     </File>
     <File Include="wwwroot/lib/jquery/.bower.json">
-      <publishTime>08/01/2018 21:43:17</publishTime>
+      <publishTime>01/08/2018 21:43:17</publishTime>
     </File>
     <File Include="wwwroot/lib/jquery/dist/jquery.js">
-      <publishTime>08/01/2018 21:43:17</publishTime>
+      <publishTime>01/08/2018 21:43:17</publishTime>
     </File>
     <File Include="wwwroot/lib/jquery/dist/jquery.min.js">
-      <publishTime>08/01/2018 21:43:17</publishTime>
+      <publishTime>01/08/2018 21:43:17</publishTime>
     </File>
     <File Include="wwwroot/lib/jquery/dist/jquery.min.map">
-      <publishTime>08/01/2018 21:43:17</publishTime>
+      <publishTime>01/08/2018 21:43:17</publishTime>
     </File>
     <File Include="wwwroot/lib/jquery/LICENSE.txt">
-      <publishTime>08/01/2018 21:43:17</publishTime>
+      <publishTime>01/08/2018 21:43:17</publishTime>
     </File>
   </ItemGroup>
 </Project>

@@ -27,10 +27,10 @@ namespace FourHealth.Data.Repositories
 
         public RepositoryBase(IConfiguration configuration)
         {
-            var connectionString = configuration.GetSection(CONNECTIONSTRING_KEY);
-            if (string.IsNullOrWhiteSpace(connectionString.Value))
+            var connectionString = configuration.GetConnectionString("myDatabase");//configuration.GetSection(CONNECTIONSTRING_KEY);
+            if (string.IsNullOrWhiteSpace(connectionString))
                 throw new ArgumentNullException("Connection string not found");
-            Connection = new SqlConnection(connectionString.Value);
+            Connection = new SqlConnection(connectionString);
         }
 
         public IDbTransaction transaction { get; private set; }

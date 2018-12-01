@@ -1,0 +1,2 @@
+C:\ProgramData\PostSharp\6.0.30\bin.Release\net471\PostSharp.Compiler.Engine.dll
+F:\unisinos\ProjetoCasoDeEnsino\4Health\Logs\obj\Debug\PostSharp\postsharp.config
