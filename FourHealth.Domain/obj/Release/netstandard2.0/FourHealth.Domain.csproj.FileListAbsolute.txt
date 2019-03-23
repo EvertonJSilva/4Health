@@ -1,7 +1,6 @@
 F:\unisinos\ProjetoCasoDeEnsino\4Health\FourHealth.Domain\bin\Release\netstandard2.0\FourHealth.Domain.deps.json
 F:\unisinos\ProjetoCasoDeEnsino\4Health\FourHealth.Domain\bin\Release\netstandard2.0\FourHealth.Domain.dll
 F:\unisinos\ProjetoCasoDeEnsino\4Health\FourHealth.Domain\bin\Release\netstandard2.0\FourHealth.Domain.pdb
-F:\unisinos\ProjetoCasoDeEnsino\4Health\FourHealth.Domain\obj\Release\netstandard2.0\FourHealth.Domain.csprojResolveAssemblyReference.cache
 F:\unisinos\ProjetoCasoDeEnsino\4Health\FourHealth.Domain\obj\Release\netstandard2.0\FourHealth.Domain.csproj.CoreCompileInputs.cache
 F:\unisinos\ProjetoCasoDeEnsino\4Health\FourHealth.Domain\obj\Release\netstandard2.0\FourHealth.Domain.AssemblyInfoInputs.cache
 F:\unisinos\ProjetoCasoDeEnsino\4Health\FourHealth.Domain\obj\Release\netstandard2.0\FourHealth.Domain.AssemblyInfo.cs

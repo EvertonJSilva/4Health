@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using FourHealth.AppServices.DTOs;
 using FourHealth.AppServices.Interfaces;
 using FourHealth.Domain.Results;
+using Microsoft.AspNetCore.Authorization;
 
 namespace FourHealth.MVC.Controllers
 {
@@ -13,6 +14,7 @@ namespace FourHealth.MVC.Controllers
     /// Controle de cadastro de perguntas
     /// </summary>
     [Route("api/[controller]")]
+    [Authorize("Bearer")]
     public class PerguntaController : Controller
     {
         private readonly IPerguntaAppService appService;

@@ -25,6 +25,7 @@ namespace FourHealth.AppServices.Mappings
             CreateMap<ProgramaDTO, Domain.Entities.Programa>().ReverseMap();
             CreateMap<ProgramaFilterDTO, Domain.Filters.ProgramaFilter>().ReverseMap();
 
+            CreateMap<UsuarioDTO, Domain.Entities.Usuario>().ReverseMap();
 
 
         }

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Symbols LinesOfCode="107" PostSharpLinesOfCode="0" EnhancedTypesCount="2" SchemaVersion="1" PostSharpVersion="6.0.30.0" xmlns="http://schemas.postsharp.org/2.0/symbols">
+  <Class Class="#1=T:[PostSharp]PostSharp.Serialization.PSerializableAttribute">
+    <Instance Declaration="#2=T:[FourHealth.Logs]Logs.LogMethodAttribute" Id="c2d44a4cceaa8bd9">
+      <Target />
+    </Instance>
+    <Instance Declaration="#3=T:[FourHealth.Logs]Logs.LogSetValueAttribute" Id="c2d44a4ce6481ab8">
+      <Target />
+    </Instance>
+  </Class>
+</Symbols>

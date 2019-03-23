@@ -13,6 +13,9 @@ namespace FourHealth.Data.IoC
             dic.Add(typeof(Domain.Repositories.IProgramaRepository), typeof(Repositories.ProgramaRepository));
             dic.Add(typeof(Domain.Repositories.IQuestionarioRepository), typeof(Repositories.QuestionarioRepository));
             dic.Add(typeof(Domain.Repositories.IPerguntaRepository), typeof(Repositories.PerguntaRepository));
+            dic.Add(typeof(Domain.Repositories.IUsuarioRepository), typeof(Repositories.UsuarioRepository));
+
+
 
 
             return dic;

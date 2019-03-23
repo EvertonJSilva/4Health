@@ -7,7 +7,7 @@ using FourHealth.AppServices.DTOs;
 using FourHealth.AppServices.Interfaces;
 using FourHealth.Domain.Results;
 using Logs;
-
+using Microsoft.AspNetCore.Authorization;
 
 namespace FourHealth.MVC.Controllers
 {
@@ -15,6 +15,7 @@ namespace FourHealth.MVC.Controllers
     /// Controle de cadastro de beneficiários
     /// </summary>
     [Route("api/[controller]")]
+    [Authorize("Bearer")]
     public class BeneficiarioController : Controller
     {
         private readonly IBeneficiarioAppService appService;
@@ -64,6 +65,7 @@ namespace FourHealth.MVC.Controllers
 
         // DELETE api/<controller>/5
         [HttpDelete("{id}")]
+        [Authorize("Bearer")]
         public bool Delete(int id)
         {
             return appService.Delete(id);

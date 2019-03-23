@@ -10,6 +10,8 @@ namespace FourHealth.AppServices.IoC
         {
             var dic = new Dictionary<Type, Type>();
             dic.Add(typeof(Interfaces.IBeneficiarioAppService), typeof(BeneficiarioAppService));
+            dic.Add(typeof(Interfaces.IUsuarioAppService), typeof(UsuarioAppService));
+
             return dic;
         }
     }

@@ -13,10 +13,16 @@ F:\unisinos\ProjetoCasoDeEnsino\4Health\FourHealth.MVC\bin\Release\netcoreapp2.0
 F:\unisinos\ProjetoCasoDeEnsino\4Health\FourHealth.MVC\bin\Release\netcoreapp2.0\FourHealth.Domain.pdb
 F:\unisinos\ProjetoCasoDeEnsino\4Health\FourHealth.MVC\bin\Release\netcoreapp2.0\FourHealth.DomainServices.pdb
 F:\unisinos\ProjetoCasoDeEnsino\4Health\FourHealth.MVC\bin\Release\netcoreapp2.0\FourHealth.Data.pdb
-F:\unisinos\ProjetoCasoDeEnsino\4Health\FourHealth.MVC\obj\Release\netcoreapp2.0\FourHealth.MVC.csprojResolveAssemblyReference.cache
 F:\unisinos\ProjetoCasoDeEnsino\4Health\FourHealth.MVC\obj\Release\netcoreapp2.0\FourHealth.MVC.csproj.CoreCompileInputs.cache
 F:\unisinos\ProjetoCasoDeEnsino\4Health\FourHealth.MVC\obj\Release\netcoreapp2.0\FourHealth.MVC.AssemblyInfoInputs.cache
 F:\unisinos\ProjetoCasoDeEnsino\4Health\FourHealth.MVC\obj\Release\netcoreapp2.0\FourHealth.MVC.AssemblyInfo.cs
 F:\unisinos\ProjetoCasoDeEnsino\4Health\FourHealth.MVC\obj\Release\netcoreapp2.0\FourHealth.MVC.csproj.CopyComplete
 F:\unisinos\ProjetoCasoDeEnsino\4Health\FourHealth.MVC\obj\Release\netcoreapp2.0\FourHealth.MVC.dll
 F:\unisinos\ProjetoCasoDeEnsino\4Health\FourHealth.MVC\obj\Release\netcoreapp2.0\FourHealth.MVC.pdb
+F:\unisinos\ProjetoCasoDeEnsino\4Health\FourHealth.MVC\bin\Release\netcoreapp2.0\FourHealth.MVC.pssym
+F:\unisinos\ProjetoCasoDeEnsino\4Health\FourHealth.MVC\bin\Release\netcoreapp2.0\FourHealth.Logs.dll
+F:\unisinos\ProjetoCasoDeEnsino\4Health\FourHealth.MVC\bin\Release\netcoreapp2.0\FourHealth.Logs.pdb
+F:\unisinos\ProjetoCasoDeEnsino\4Health\FourHealth.MVC\obj\Release\netcoreapp2.0\FourHealth.MVC.csprojAssemblyReference.cache
+F:\unisinos\ProjetoCasoDeEnsino\4Health\FourHealth.MVC\obj\Release\netcoreapp2.0\PostSharp\touch
+F:\unisinos\ProjetoCasoDeEnsino\4Health\FourHealth.MVC\obj\Release\netcoreapp2.0\PostSharp\dependencies.txt
+F:\unisinos\ProjetoCasoDeEnsino\4Health\FourHealth.MVC\obj\Release\netcoreapp2.0\PostSharp\postsharp.app.config

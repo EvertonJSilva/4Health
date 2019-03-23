@@ -13,6 +13,7 @@ namespace FourHealth.DomainServices.IoC
             dic.Add(typeof(DomainServices.Interfaces.IProgramaDomainService), typeof(ProgramaDomainService));
             dic.Add(typeof(DomainServices.Interfaces.IQuestionarioDomainService), typeof(QuestionarioDomainService));
             dic.Add(typeof(DomainServices.Interfaces.IPerguntaDomainService), typeof(PerguntaDomainService));
+            dic.Add(typeof(DomainServices.Interfaces.IUsuarioDomainService), typeof(UsuarioDomainService));
 
             return dic;
         }
