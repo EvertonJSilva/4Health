@@ -17,6 +17,8 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Mvc;
 using FourHealth.MVC.Util;
 using Microsoft.Extensions.Options;
+using Microsoft.AspNetCore.Cors.Infrastructure;
+using Microsoft.AspNetCore.Mvc.Cors.Internal;
 
 //// Add logging to every method in the assembly.
 //[assembly: LogMethod(AttributePriority = 0)]
@@ -102,14 +104,27 @@ namespace FourHealth.MVC
                     .RequireAuthenticatedUser().Build());
             });
 
-           
 
-            services.AddMvc();
+            
+
+            services.Configure<MvcOptions>(options =>
+            {
+                options.Filters.Add(new CorsAuthorizationFilterFactory("AllowSpecificOrigin"));
+            });
             services.AddCors(options =>
             {
-                options.AddPolicy("AllowMyOrigin",
-                builder => builder.AllowAnyOrigin());
+                options.AddPolicy("AllowSpecificOrigin",
+                    builder => builder.WithOrigins("http://localhost:4200", "https://ui-4health.azurewebsites.net/").AllowAnyHeader()
+                    .AllowAnyMethod());
             });
+
+            services.AddMvc();
+
+            //services.AddCors(options =>
+            //{
+             //   options.AddPolicy("AllowMyOrigin",
+             //   builder => builder.AllowAnyOrigin());
+            //});
 
             Mappings.AutoMapperConfiguration.Initialize();
         }
@@ -133,7 +148,6 @@ namespace FourHealth.MVC
             }
 
             
-            app.UseStaticFiles();
 
             app.UseMvc(routes =>
             {
@@ -142,7 +156,12 @@ namespace FourHealth.MVC
                     template: "{controller=Home}/{action=Index}/{id?}");
             });
 
-            app.UseCors("AllowMyOrigin");
+            // app.UseCors(cfg => { cfg.AllowAnyHeader().AllowAnyMethod().AllowAnyOrigin().WithExposedHeaders("X-Metadata"); });
+            // Shows UseCors with named policy.
+            app.UseCors("AllowSpecificOrigin");
+
+            app.UseStaticFiles();
+            app.UseAuthentication();
 
             app.UseSwagger();
             app.UseSwaggerUI(c =>

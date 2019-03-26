@@ -65,7 +65,7 @@ namespace FourHealth.MVC.Controllers
 
         // DELETE api/<controller>/5
         [HttpDelete("{id}")]
-        [Authorize("Bearer")]
+       // [Authorize("Bearer")]
         public bool Delete(int id)
         {
             return appService.Delete(id);

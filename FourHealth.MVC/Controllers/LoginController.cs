@@ -8,7 +8,7 @@ using Microsoft.IdentityModel.Tokens;
 using FourHealth.MVC.Util;
 using FourHealth.AppServices.DTOs;
 using FourHealth.AppServices.Interfaces;
-
+using System.Collections.Generic;
 
 namespace FourHealth.MVC.Controllers
 {
@@ -25,11 +25,13 @@ namespace FourHealth.MVC.Controllers
 
         [AllowAnonymous]
         [HttpPost]
-        public object Post(
+        public Token getToken(
             [FromBody]UsuarioDTO usuario,
             [FromServices]SigningConfigurations signingConfigurations,
             [FromServices]TokenConfigurations tokenConfigurations)
         {
+            Token tokenRetorno;
+
             bool credenciaisValidas = false;
             if (usuario != null && !String.IsNullOrWhiteSpace(usuario.UserID))
             {
@@ -65,23 +67,55 @@ namespace FourHealth.MVC.Controllers
                 });
                 var token = handler.WriteToken(securityToken);
 
-                return new
-                {
-                    authenticated = true,
-                    created = dataCriacao.ToString("yyyy-MM-dd HH:mm:ss"),
-                    expiration = dataExpiracao.ToString("yyyy-MM-dd HH:mm:ss"),
-                    accessToken = token,
-                    message = "OK"
-                };
+                tokenRetorno = new Token
+                    (
+                        true,
+                        dataCriacao.ToString("yyyy-MM-dd HH:mm:ss"),
+                        dataExpiracao.ToString("yyyy-MM-dd HH:mm:ss"),
+                        token,
+                        "OK"
+                    );
+
             }
             else
             {
-                return new
-                {
-                    authenticated = false,
-                    message = "Falha ao autenticar"
-                };
+                tokenRetorno = new Token
+                (
+                   false,
+                   "",
+                   "",
+                   "",
+                   "Falha ao autenticar"
+                );
+            }
+
+        var lista = new List<Token>();
+        lista.Add(tokenRetorno);
+        return tokenRetorno;
+        }
+
+
+    public class Token{
+            public Boolean authenticated { get; set; }
+            public String created { get; set; }
+            public String expiration { get; set; }
+        public String accessToken { get; set; }
+            public String message { get; set; }
+
+         public Token(Boolean authenticated,
+                        String created,
+                        String expiration,
+                        String accessToken,
+                        String message)
+          {
+                this.authenticated = authenticated;
+                this.created = created;
+                this.expiration = expiration;
+                this.accessToken = accessToken;
+                this.message = message;
+
             }
         }
+
     }
 }
